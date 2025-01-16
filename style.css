@@ -1,0 +1,46 @@
+/*Changes fonts of h1, h2, h3*/
+h1{
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;    
+}
+
+ h3{
+    font-family: 'Times New Roman', Times, serif;    
+}
+/*Changes font of body, and adds background to enire site*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(51, 109, 72, 0.693);
+    margin:auto;
+    padding: 20px;
+}
+/*Changes font, background colour, and gives border with parameters to form section*/
+form{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(149, 252, 114, 0.499);
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+/*Changes the sumbit button/input to have a seperate border tha chnges when it is clicked and its parameters*/
+input[type="submit"]{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+/*Changes the submit button to change colour once the cursor is over it*/
+input[type="submit"]:hover{
+    background-color: royalblue;
+}
